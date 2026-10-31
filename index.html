@@ -1,141 +1,52 @@
-<!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#ffffff">
-  <title>2026년 10월 25일 미사 말씀</title>
-  <style>
-    :root { color-scheme:light; --ink:#202522; --sub:#56615b; --rule:#d9ddd8; --accent:#244d40; --font-size:1.19rem; }
-    *,*::before,*::after { box-sizing:border-box; }
-    html { scroll-behavior:smooth; scroll-padding-top:1.5rem; }
-    body { margin:0; background:#fff; color:var(--ink); font-family:'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',system-ui,sans-serif; -webkit-font-smoothing:antialiased; word-break:keep-all; overflow-wrap:break-word; }
-    a { color:inherit; }
-    button,a { -webkit-tap-highlight-color:transparent; }
-    button:focus-visible,a:focus-visible { outline:3px solid #a36a22; outline-offset:4px; }
-    .wrap { width:min(100% - 42px,680px); margin-inline:auto; }
-    .page-header { padding:52px 0 35px; }
-    .date { margin:0 0 12px; font-size:.85rem; font-weight:550; color:var(--sub); letter-spacing:.025em; }
-    h1 { margin:0; font-size:clamp(1.85rem,5vw,2.35rem); font-weight:700; letter-spacing:-.055em; line-height:1.4; }
-    .utilities { display:flex; align-items:center; justify-content:space-between; gap:14px; margin-top:28px; padding:0 0 20px; border-bottom:1px solid var(--rule); }
-    .jump { display:flex; gap:clamp(14px,4vw,27px); flex-wrap:wrap; }
-    .jump a { text-decoration:none; font-size:.9rem; color:var(--sub); font-weight:600; padding:9px 0; }
-    .jump a:hover { color:var(--accent); text-decoration:underline; text-underline-offset:5px; }
-    .size-control { display:flex; gap:6px; flex-shrink:0; }
-    .size-control button { border:1px solid var(--rule); background:#fff; border-radius:5px; padding:5px 9px; min-width:40px; min-height:42px; font-size:1rem; color:var(--ink); font-weight:600; cursor:pointer; }
-    .size-control button:hover { background:#f4f6f4; }
-    .reading { padding:49px 0 56px; border-bottom:1px solid var(--rule); }
-    .reading:last-child { border-bottom:0; padding-bottom:90px; }
-    .reading-head { margin-bottom:30px; }
-    h2 { margin:0; font-size:1.5rem; font-weight:720; letter-spacing:-.045em; line-height:1.45; }
-    .reference { margin:5px 0 26px; font-size:.94rem; color:var(--sub); font-weight:500; }
-    .incipit { margin:0 0 22px; font-weight:600; font-size:1.02rem; line-height:1.8; color:var(--accent); }
-    .proclamation { margin:0; font-size:1rem; line-height:1.7; color:var(--sub); }
-    .passage { font-size:var(--font-size); line-height:1.95; letter-spacing:-.025em; }
-    .verse { margin:0 0 .65em; font-weight:400; }
-    .verse-no { color:#69766d; font-size:.78em; font-weight:700; padding-right:.26em; font-variant-numeric:tabular-nums; }
-    .response { margin:1.75em 0 .2em; font-size:.92em; }
-    .acclamation { margin:0; font-size:.92em; }
-    @media (max-width:600px) {
-       .wrap { width:min(100% - 36px,680px); }
-       .page-header { padding:31px 0 19px; }
-       .utilities { margin-top:19px; }
-       .reading { padding:37px 0 44px; }
-       .reading-head { margin-bottom:23px; }
-       .reference { margin-bottom:23px; }
-       .verse { margin-bottom:.72em; }
-       .passage { line-height:1.9; }
-    }
-    @media print {
-       .wrap { width:100%; max-width:none; }
-       .page-header { padding:0 0 24px; }
-       .jump,.size-control { display:none; }
-       .utilities { margin-top:0; padding:0; }
-       .reading { padding:22px 0; }
-       .passage { font-size:11pt; line-height:1.75; }
-       .verse { break-inside:avoid; }
-       .reading-head { break-after:avoid; }
-    }
-    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
-  </style>
-</head>
-<body>
-  <main class="wrap" id="top">
-    <header class="page-header">
-      <p class="date">2026년 10월 25일</p>
-      <h1>주일 미사 말씀</h1>
-      <div class="utilities">
-        <nav class="jump" aria-label="독서로 이동"><a href="#reading-1">제1독서</a><a href="#reading-2">제2독서</a><a href="#reading-3">복음</a></nav>
-        <div class="size-control" role="group" aria-label="본문 글자 크기 조절">
-          <button type="button" id="smaller" aria-label="글자 작게">가−</button>
-          <button type="button" id="larger" aria-label="글자 크게">가＋</button>
-        </div>
-      </div>
-    </header>
-    <section class="reading" id="reading-1" aria-label="제1독서">
-  <header class="reading-head">
-    <h2>제1독서</h2>
-    <p class="reference">탈출기 22,20-26</p>
-    <p class="incipit">&lt;너희가 과부와 고아를 억누른다면 나는 분노를 터뜨릴 것이다.&gt;</p>
-    <p class="proclamation">▥ 탈출기의 말씀입니다.</p>
-  </header>
-  <div class="passage"><p class="verse">주님께서 이렇게 말씀하신다. <span class="verse-no">20</span> “너희는 이방인을 억압하거나 학대해서는 안 된다. 너희도 이집트 땅에서 이방인이었다.</p>
-<p class="verse"><span class="verse-no">21</span> 너희는 어떤 과부나 고아도 억눌러서는 안 된다.</p>
-<p class="verse"><span class="verse-no">22</span> 너희가 그들을 억눌러 그들이 나에게 부르짖으면, 나는 그 부르짖음을 들어줄 것이다.</p>
-<p class="verse"><span class="verse-no">23</span> 그러면 나는 분노를 터뜨려 칼로 너희를 죽이겠다. 그러면 너희 아내들은 과부가 되고, 너희 아들들은 고아가 될 것이다.</p>
-<p class="verse"><span class="verse-no">24</span> 너희가 나의 백성에게, 너희 곁에 사는 가난한 이에게 돈을 꾸어 주었으면, 그에게 채권자처럼 행세해서도 안 되고, 이자를 물려서도 안 된다.</p>
-<p class="verse"><span class="verse-no">25</span> 너희가 이웃의 겉옷을 담보로 잡았으면, 해가 지기 전에 돌려주어야 한다.</p>
-<p class="verse"><span class="verse-no">26</span> 그가 덮을 것이라고는 그것뿐이고, 몸을 가릴 것이라고는 그 겉옷뿐인데, 무엇을 덮고 자겠느냐? 그가 나에게 부르짖으면 나는 들어줄 것이다. 나는 자비하다.”</p>
-<p class="response">주님의 말씀입니다.</p>
-<p class="acclamation">◎ 하느님, 감사합니다.</p></div>
-</section>
-<section class="reading" id="reading-2" aria-label="제2독서">
-  <header class="reading-head">
-    <h2>제2독서</h2>
-    <p class="reference">테살로니카 1서 1,5ㄴ-10</p>
-    <p class="incipit">&lt;여러분은 우상들을 버리고 돌아서서 하느님을 섬기며 하느님의 아드님을 기다리고 있습니다.&gt;</p>
-    <p class="proclamation">▥ 사도 바오로의 테살로니카 1서 말씀입니다.</p>
-  </header>
-  <div class="passage"><p class="verse">형제 여러분, <span class="verse-no">5</span> 우리가 여러분을 위하여 여러분 가운데에서 어떻게 처신하였는지 여러분은 알고 있습니다.</p>
-<p class="verse"><span class="verse-no">6</span> 또한 여러분은 큰 환난 속에서도 성령께서 주시는 기쁨으로 말씀을 받아들여, 우리와 주님을 본받는 사람이 되었습니다.</p>
-<p class="verse"><span class="verse-no">7</span> 그리하여 여러분은 마케도니아와 아카이아의 모든 신자에게 본보기가 되었습니다.</p>
-<p class="verse"><span class="verse-no">8</span> 주님의 말씀이 여러분에게서 시작하여 마케도니아와 아카이아에 울려 퍼졌을 뿐만 아니라, 하느님에 대한 여러분의 믿음이 곳곳에 알려졌습니다. 그러니 우리는 더 말할 필요가 없습니다.</p>
-<p class="verse"><span class="verse-no">9</span> 사실 그곳 사람들이 우리에 관한 이야기를 전하고 있습니다. 우리가 여러분을 찾아갔을 때에 여러분이 우리를 어떻게 받아들였는지, 여러분이 어떻게 우상들을 버리고 하느님께 돌아서서 살아 계신 참하느님을 섬기게 되었는지,</p>
-<p class="verse"><span class="verse-no">10</span> 그리고 여러분이 어떻게 하느님께서 죽은 이들 가운데에서 일으키신 그분의 아드님, 곧 닥쳐오는 진노에서 우리를 구해 주실 예수님께서 하늘로부터 오실 것을 기다리게 되었는지 말하고 있습니다.</p>
-<p class="response">주님의 말씀입니다.</p>
-<p class="acclamation">◎ 하느님, 감사합니다</p></div>
-</section>
-<section class="reading" id="reading-3" aria-label="복음">
-  <header class="reading-head">
-    <h2>복음</h2>
-    <p class="reference">마태오 22,34-40</p>
-    <p class="incipit">&lt;주 너의 하느님을 사랑해야 한다. 네 이웃을 너 자신처럼 사랑해야 한다.&gt;</p>
-    <p class="proclamation">✠ 마태오가 전한 거룩한 복음입니다.</p>
-  </header>
-  <div class="passage"><p class="verse">그때에 <span class="verse-no">34</span> 예수님께서 사두가이들의 말문을 막아 버리셨다는 소식을 듣고 바리사이들이 한데 모였다.</p>
-<p class="verse"><span class="verse-no">35</span> 그들 가운데 율법 교사 한 사람이 예수님을 시험하려고 물었다.</p>
-<p class="verse"><span class="verse-no">36</span> “스승님, 율법에서 가장 큰 계명은 무엇입니까?”</p>
-<p class="verse"><span class="verse-no">37</span> 예수님께서 그에게 말씀하셨다. “‘네 마음을 다하고 네 목숨을 다하고 네 정신을 다하여 주 너의 하느님을 사랑해야 한다.’</p>
-<p class="verse"><span class="verse-no">38</span> 이것이 가장 크고 첫째가는 계명이다.</p>
-<p class="verse"><span class="verse-no">39</span> 둘째도 이와 같다. ‘네 이웃을 너 자신처럼 사랑해야 한다.’는 것이다.</p>
-<p class="verse"><span class="verse-no">40</span> 온 율법과 예언서의 정신이 이 두 계명에 달려 있다.”</p>
-<p class="response">주님의 말씀입니다.</p>
-<p class="acclamation">◎ 그리스도님, 찬미합니다.</p></div>
-</section>
-  </main>
-  <script>
-    (()=>{
-      let size=1.19;
-      const root=document.documentElement;
-      function change(delta){
-        size=Math.max(.98,Math.min(1.65,Math.round((size+delta)*100)/100));
-        root.style.setProperty('--font-size',size+'rem');
-        document.getElementById('smaller').disabled=size<=.98;
-        document.getElementById('larger').disabled=size>=1.65;
-      }
-      document.getElementById('smaller').addEventListener('click',()=>change(-.1));
-      document.getElementById('larger').addEventListener('click',()=>change(.1));
-    })();
-  </script>
-</body>
-</html>
+<!doctype html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#fff"><title>모든 성인 대축일 · 미사 말씀</title><style>
+:root{--ink:#22211f;--muted:#63615e;--rule:#e2e0db;--accent:#755c43;--font:21px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font-family:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;-webkit-font-smoothing:antialiased}main{max-width:740px;padding:0 25px 110px;margin:auto}header{text-align:center;padding:70px 0 38px;border-bottom:1px solid var(--rule)}.overline{font-family:system-ui,sans-serif;color:var(--muted);font-size:13px;letter-spacing:.12em}h1{font-size:clamp(27px,5vw,37px);font-weight:600;letter-spacing:-.035em;margin:13px 0 0}.nav{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:26px auto 0}.nav a{font:500 14px system-ui,sans-serif;text-decoration:none;color:#484643;padding:11px 15px;border:1px solid var(--rule);border-radius:4px}.nav a:focus-visible,.controls button:focus-visible{outline:3px solid #9b7352;outline-offset:3px}.controls{display:flex;justify-content:flex-end;gap:8px;margin-top:24px}.controls button{font:500 14px system-ui,sans-serif;color:#484643;background:#fff;border:1px solid var(--rule);border-radius:4px;min-height:42px;min-width:46px;cursor:pointer}.reading{padding-top:80px;scroll-margin-top:10px}.reading+.reading{margin-top:90px;border-top:1px solid var(--rule)}.category{text-align:center;font:600 14px system-ui,sans-serif;letter-spacing:.09em;color:var(--accent)}h2{text-align:center;font-size:clamp(27px,5vw,34px);margin:14px 0 8px;font-weight:600}.reference{text-align:center;font:400 15px system-ui,sans-serif;color:var(--muted)}.theme{text-align:center;font-size:17px;line-height:1.8;margin:32px auto;max-width:560px;color:#55504a}.opening{font-size:18px;font-weight:600;margin-top:45px}.verse{font-size:var(--font);line-height:2.03;letter-spacing:-.018em;white-space:pre-line;overflow-wrap:break-word;margin:29px 0 0}.closing{font-size:19px;margin:42px 0 0}.response{font-size:18px;color:var(--accent);margin:12px 0 0}.end{height:1px;background:var(--rule);margin-top:75px}@media(max-width:520px){main{padding:0 22px 70px}header{padding:46px 0 24px}.reading{padding-top:58px}.reading+.reading{margin-top:65px}.verse{line-height:1.98}.opening{margin-top:34px}.theme{margin:24px auto}}@media print{.nav,.controls{display:none}.reading{padding-top:38px}.reading+.reading{break-before:page;margin-top:0}}
+</style></head><body><main><header><div class="overline">미사 말씀</div><h1>모든 성인 대축일</h1><nav class="nav" aria-label="독서 바로 가기"><a href="#r1">제1독서</a><a href="#r2">제2독서</a><a href="#gospel">복음</a></nav><div class="controls" aria-label="글자 크기"><button onclick="resize(-1)" aria-label="글자 작게">가−</button><button onclick="resize(1)" aria-label="글자 크게">가＋</button></div></header><section class="reading" id="r1"><div class="category">제1독서</div><h2>요한 묵시록</h2><div class="reference">7,2-4.9-14</div><p class="theme">&lt;내가 보니, 아무도 수를 셀 수 없을 만큼 큰 무리가 있었습니다. 그들은 모든 민족과 종족과 백성과 언어권에서 나온 사람들이었습니다.&gt;</p><p class="opening">▥ 요한 묵시록의 말씀입니다.</p><p class="verse">나 요한은 2 다른 한 천사가 살아 계신 하느님의 인장을 가지고
+해 돋는 쪽에서 올라오는 것을 보았습니다.
+그가 땅과 바다를 해칠 권한을 받은 네 천사에게 큰 소리로 외쳤습니다.
+3 “우리가 우리 하느님의 종들의 이마에 인장을 찍을 때까지
+땅도 바다도 나무도 해치지 마라.”
+4 나는 인장을 받은 이들의 수가 십사만 사천 명이라고 들었습니다.
+인장을 받은 이들은
+이스라엘 자손들의 모든 지파에서 나온 사람들이었습니다.
+9 그다음에 내가 보니, 아무도 수를 셀 수 없을 만큼 큰 무리가 있었습니다.
+모든 민족과 종족과 백성과 언어권에서 나온 그들은,
+희고 긴 겉옷을 입고 손에는 야자나무 가지를 들고서
+어좌 앞에 또 어린양 앞에 서 있었습니다.
+10 그들이 큰 소리로 외쳤습니다.
+“구원은 어좌에 앉아 계신 우리 하느님과 어린양의 것입니다.”
+11 그러자 모든 천사가 어좌와 원로들과 네 생물 둘레에 서 있다가,
+어좌 앞에 얼굴을 땅에 대고 엎드려 하느님께 경배하며 12 말하였습니다.
+“아멘. 우리 하느님께 찬미와 영광과 지혜와 감사와 영예와 권능과 힘이
+영원무궁하기를 빕니다. 아멘.”
+13 그때에 원로 가운데 하나가,
+“희고 긴 겉옷을 입은 저 사람들은 누구이며 어디에서 왔느냐?” 하고
+나에게 물었습니다.
+14 “원로님, 원로님께서 알고 계시지 않습니까?” 하고
+내가 대답하였더니, 그가 나에게 말하였습니다.
+“저 사람들은 큰 환난을 겪어 낸 사람들이다.
+저들은 어린양의 피로 자기들의 긴 겉옷을 깨끗이 빨아 희게 하였다.”</p><p class="closing">주님의 말씀입니다.</p><p class="response">◎ 하느님, 감사합니다.</p></section><section class="reading" id="r2"><div class="category">제2독서</div><h2>요한 1서</h2><div class="reference">3,1-3</div><p class="theme">&lt;우리는 하느님을 있는 그대로 뵙게 될 것입니다.&gt;</p><p class="opening">▥ 요한 1서의 말씀입니다.</p><p class="verse">사랑하는 여러분,
+1 아버지께서 우리에게 얼마나 큰 사랑을 주시어
+우리가 하느님의 자녀라 불리게 되었는지 생각해 보십시오.
+과연 우리는 그분의 자녀입니다.
+세상이 우리를 알지 못하는 까닭은
+세상이 그분을 알지 못하였기 때문입니다.
+2 사랑하는 여러분, 이제 우리는 하느님의 자녀입니다.
+우리가 어떻게 될지는 아직 드러나지 않았지만,
+그분께서 나타나시면 우리도 그분처럼 되리라는 것은 알고 있습니다.
+그분을 있는 그대로 뵙게 될 것이기 때문입니다.
+3 그분께 이러한 희망을 두는 사람은 모두,
+그리스도께서 순결하신 것처럼 자신도 순결하게 합니다.</p><p class="closing">주님의 말씀입니다.</p><p class="response">◎ 하느님, 감사합니다.</p></section><section class="reading" id="gospel"><div class="category">복음</div><h2>마태오</h2><div class="reference">5,1-12ㄴ</div><p class="theme">&lt;기뻐하고 즐거워하여라. 너희가 하늘에서 받을 상이 크다.&gt;</p><p class="opening">✠ 마태오가 전한 거룩한 복음입니다.</p><p class="verse">그때에 1 예수님께서는 군중을 보시고 산으로 오르셨다.
+그분께서 자리에 앉으시자 제자들이 그분께 다가왔다.
+2 예수님께서 입을 여시어 그들을 이렇게 가르치셨다.
+3 “행복하여라, 마음이 가난한 사람들! 하늘 나라가 그들의 것이다.
+4 행복하여라, 슬퍼하는 사람들! 그들은 위로를 받을 것이다.
+5 행복하여라, 온유한 사람들! 그들은 땅을 차지할 것이다.
+6 행복하여라, 의로움에 주리고 목마른 사람들! 그들은 흡족해질 것이다.
+7 행복하여라, 자비로운 사람들! 그들은 자비를 입을 것이다.
+8 행복하여라, 마음이 깨끗한 사람들! 그들은 하느님을 볼 것이다.
+9 행복하여라, 평화를 이루는 사람들! 그들은 하느님의 자녀라 불릴 것이다.
+10 행복하여라, 의로움 때문에 박해를 받는 사람들!
+하늘 나라가 그들의 것이다.
+11 사람들이 나 때문에 너희를 모욕하고 박해하며,
+너희를 거슬러 거짓으로 온갖 사악한 말을 하면, 너희는 행복하다!
+12 기뻐하고 즐거워하여라. 너희가 하늘에서 받을 상이 크다.”</p><p class="closing">주님의 말씀입니다.</p><p class="response">◎ 그리스도님, 찬미합니다.</p></section><div class="end"></div></main><script>let fs=21;function resize(d){fs=Math.min(29,Math.max(17,fs+d));document.documentElement.style.setProperty('--font',fs+'px')}</script></body></html>
